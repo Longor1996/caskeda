@@ -1,0 +1,12 @@
+# This is a virtual workspace.
+# One cannot add dependencies here.
+
+[workspace]
+members = [
+    "caskeda-common",
+    "caskeda-mobile-android",
+    "caskeda-desktop-windows",
+]
+
+[profile.dev]
+opt-level = 1

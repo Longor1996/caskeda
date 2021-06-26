@@ -3,9 +3,15 @@
 
 [workspace]
 members = [
-    "caskeda-common",
-    "caskeda-mobile-android",
-    "caskeda-desktop-windows",
+    # Backend.
+    "caskeda-common", # Combines all 'common-' libs into one.
+    "caskeda-common-language", # Runtime language.
+    "caskeda-common-package", # Package format.
+    "caskeda-common-plugins", # Runtime extensions.
+    
+    # Frontends.
+    "caskeda-desktop-windows", # Frontend for Windows.
+    "caskeda-mobile-android", # Frontend for Android.
 ]
 
 [profile.dev]
